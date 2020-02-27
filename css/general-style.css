@@ -1,0 +1,83 @@
+body {
+	background: url("images/fon1.jpg");
+	font-size:1.2em;
+	margin:0;
+	width:100%;
+	background-repeat: repeat;
+	background-size:30%;
+	font-family:"Arial";
+}
+
+header, h1, h2, h3, .title{
+	font-family: "v_CCMeanwhile-Regular";
+}
+
+.about-book .description{
+	font-family: "Courier New";
+}
+
+header {
+	background-color:#48218d;
+	display:flex;
+	justify-content:space-around;
+	font-size:1.5em;
+	color: #efe0d9;
+	box-shadow: 5px 0 15px #000;
+	margin:0;
+	padding: 0.5% 15% 0.5% 15%;
+}
+
+header>a{
+	display: inline-block;
+	text-decoration: none;
+	color:inherit;
+}
+
+header>a:hover {
+	color:#fff;
+	text-shadow: 1px 1px 2px #000;
+	cursor: pointer;
+}
+
+.main-page {
+	display:flex;
+	flex-wrap:wrap;
+	background-color:#c3afa6;
+	margin: 2% 15% 0 15%;
+	border-radius:10px;
+	box-shadow: 5px 5px 15px #000;
+	padding:1% 2% 1% 2%;
+}
+
+img:hover{
+	-webkit-transform: scale(1.1);
+	-ms-transform:scale(1.1);
+	transform:scale(1.1 );
+}
+
+h2 {
+	text-align: center;
+}
+
+li img:hover{
+	box-shadow: 5px 5px 10px #000;
+}
+
+.title:hover, .author:hover{
+	cursor: pointer;
+	text-shadow: 1px 1px 1px #656464;
+}
+
+@font-face {
+	font-family:"v_CCMeanwhile-Regular";
+	src: url("fonts/18386.ttf") format("truetype"); 
+	font-style: normal; 
+	font-weight: normal
+}
+
+@font-face {
+	font-family:"Russian Road Sign";
+	src: url("fonts/17890.otf") format("opentype"); 
+	font-style: normal; 
+	font-weight: normal
+}

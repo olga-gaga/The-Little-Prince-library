@@ -1,0 +1,96 @@
+.main-page{
+	flex-direction:row;
+	justify-content: space-around;
+}
+
+.user {
+	display:flex;
+	justify-content: space-between;
+	width:95%;
+	margin: 0 2.5% 0 2.5%;
+	border-radius: 10px;
+	border: 7px solid #fff;
+	background-color: #6233b782;
+}
+
+#img{
+	width:15%;
+	margin: 2%;
+}
+
+.information{
+	width:80%;
+}
+
+#img>img{
+	width:100%;
+	border-radius: 10px;
+	border:7px solid #01000082;
+}
+
+h1 {
+	font-size:1.5em;
+}
+
+h1, h2{
+	margin:5% 0 5% 0;
+	align-items: center;
+	text-align:center;
+}
+
+h2 {
+	width:100%;
+	font-size: 1.3em;
+}
+
+form {
+	width:95%;
+	margin: 0 2.5% 0 2.5%;
+	display:flex;
+	justify-content:space-around;
+}
+
+form>h3:hover{
+	cursor: pointer;
+	text-shadow: 1px 1px 2px #000;
+}
+
+.open{
+	color:#351968;
+	text-shadow: 1px 1px 2px #000;
+}
+
+li{
+	display:flex;
+	width:95%;
+	margin: 2% 0 2% 0;
+}
+
+li img{
+	width:15%;
+	margin:0 2% 0 2%;
+	1border-radius: 10px;
+}
+
+li .about-book {
+	width: 80%;
+	flex-direction: column;
+}
+
+.title{
+	width:100%;
+	font-size: 1.2em;
+	margin: 1%;
+}
+
+.author{
+	width:100%;
+	font-size: 1em;
+	margin: 1%;
+}
+
+.description{
+	width:100%;
+	font-size: 0.9em;
+	margin: 1%;
+}

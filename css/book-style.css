@@ -1,0 +1,40 @@
+.main-page{
+	flex-direction:row;
+	justify-content: space-between;
+}
+
+#img{
+	width:30%;
+	margin:2%;
+}
+
+img{
+	width:100%;
+	border-radius: 10px;
+	border:1% solid #000;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align:left;
+	display:inline-block;
+	width:fit-content;
+	font-size:0.95em;
+	margin:0;
+}
+
+.information{
+	width:65%;
+	flex-direction: column;
+}
+
+.information div{
+	margin:1.5%;
+}
+
+.information p{
+	margin: 1.5% 0 1.5% 0;
+}
