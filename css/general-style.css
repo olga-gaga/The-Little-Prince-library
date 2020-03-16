@@ -46,7 +46,7 @@ header>a:hover {
 	margin: 2% 15% 0 15%;
 	border-radius:10px;
 	box-shadow: 5px 5px 15px #000;
-	padding:1% 2% 1% 2%;
+	padding:3% 2% 1% 2%;
 }
 
 img:hover{
@@ -57,6 +57,14 @@ img:hover{
 
 h2 {
 	text-align: center;
+}
+
+.book-cover {
+	height: 240px;
+}
+
+.author-photo{
+	height:200px;
 }
 
 li img:hover{

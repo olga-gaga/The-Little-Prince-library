@@ -7,29 +7,28 @@
 	display:flex;
 	justify-content: space-between;
 	width:95%;
-	margin: 0 2.5% 0 2.5%;
-	border-radius: 10px;
-	border: 7px solid #fff;
-	background-color: #6233b782;
+	
 }
 
 #img{
-	width:15%;
+	width:20%;
 	margin: 2%;
 }
 
 .information{
-	width:80%;
+	width:75%;
+	margin: 0% 3%	 0 3%;	
 }
 
 #img>img{
 	width:100%;
 	border-radius: 10px;
-	border:7px solid #01000082;
+	border:10px solid #6233b782;
 }
 
 h1 {
-	font-size:1.5em;
+	font-size: 1.8em;
+	
 }
 
 h1, h2{
