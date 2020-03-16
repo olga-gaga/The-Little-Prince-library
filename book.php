@@ -16,8 +16,8 @@
 		$query = "SELECT book.Title AS 'title', book.Description AS 'description', book.Cover_link AS 'cover', genre.Name AS 'genre', 
 		CONCAT(author.First_name, \" \", author.Last_name) AS 'author', YEAR(Publication_date) AS 'date' FROM book 
 		INNER JOIN book_genre ON book_genre.Id_book = book.Id_book INNER JOIN genre ON genre.Id_genre = book_genre.Id_genre 
-		INNER JOIN author_s_books ON book.Id_book = author_s_books.Id_book INNER JOIN author ON author_s_books.Id_author = author.Id_author 
-		WHERE book.Id_book = $book;";
+		INNER JOIN author_s_books ON book.Id_book = author_s_books.Id_book INNER JOIN author 
+		ON author_s_books.Id_author = author.Id_author WHERE book.Id_book = $book;";
 		$query_genre = "SELECT genre.name AS 'genre' FROM genre INNER JOIN book_genre ON book_genre.Id_genre = genre.Id_genre  
 		WHERE book_genre.Id_book = $book";
 		$result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));

@@ -12,7 +12,7 @@ header, h1, h2, h3, .title{
 	font-family: "v_CCMeanwhile-Regular";
 }
 
-.about-book .description{
+.about-book .description, .information .description{
 	font-family: "Courier New";
 }
 
